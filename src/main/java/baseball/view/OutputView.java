@@ -42,4 +42,8 @@ public class OutputView {
         }
         System.out.print(judgement.getBall() + "볼");
     }
+
+    public void printError(String message) {
+        System.out.println(message);
+    }
 }
